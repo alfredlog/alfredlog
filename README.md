@@ -15,7 +15,7 @@ I build **production-ready AI applications** — from ML models, RAG pipelines a
 
 - 🎓 B.Sc. Computer Science at **TU Darmstadt** — focus on Generative AI, AI Agents & Process Automation
 - 🤖 Building **LLM-powered systems**: AI agents (MCP, tool calling, human-in-the-loop), RAG, vector search
-- 🏆 Hackathon **TBC26 Agentic Payments** (TUM Blockchain Club, Munich, Oct 2026) with **AgentGetPay**
+- 🏆 **2nd place, Adevar Labs prize** at the **TUM Blockchain Hackathon 2026** (TBC26 Agentic Payments, Munich, Oct 2026) with **[AgentTresor](https://github.com/alfredlog/agenttresor)** (formerly AgentGetPay)
 - 🛠️ Strong software engineering foundation: REST APIs, multi-tenant architectures, cloud storage, auth, payments
 - 📊 Background in **IT & Data Analysis** (internship at FINCA)
 - 🌍 French (native) · German (C1) · English (professional)
@@ -27,7 +27,7 @@ I build **production-ready AI applications** — from ML models, RAG pipelines a
 
 | Project | What it does | Stack |
 |---|---|---|
-| **AgentGetPay** · [Live](https://agentpay.pdf-libre.de) | Spend control for AI agents: agents never hold keys; a proxy enforces company rules (budgets, merchants, categories), asks a human for approval (Telegram / dashboard), pays over HTTP 402 on BSV and keeps a tamper-proof audit log with DATEV export. MCP server with OAuth for Claude, ChatGPT and Cursor. 112 automated tests, Docker. | TypeScript, Node.js, MCP, OAuth 2.1, BSV blockchain, Docker, Caddy |
+| **[AgentTresor](https://github.com/alfredlog/agenttresor)** (formerly AgentGetPay) · [Live](https://agentpay.pdf-libre.de) · 🥈 TUM Blockchain Hackathon 2026 | Non-custodial spend control for AI agents. The company locks a budget in an on-chain vault (Bitcoin Script): a payment needs both the agent's and the policy's signature, and the company can always take its funds back alone. Rules per agent (allowed merchants, max per payment, daily budget, in sats or euros); large payments wait until the company approves them with a signature in its own wallet. A covenant version lets every node enforce the payment cap. Hash-chained audit log anchored on-chain. Agents (Claude, ChatGPT, Cursor) connect through a local MCP service and pay merchants over HTTP 402. Live on BSV mainnet, 270+ automated tests. | TypeScript, Node.js, MCP, Bitcoin Script, BSV (BRC-100 wallets, HTTP 402), Caddy |
 | **[Empfang KI](https://github.com/alfredlog/empfang-ki)** · [empfang-ki.de](https://empfang-ki.de) | AI receptionist for small businesses: an embeddable chat widget answers customer questions from the business's knowledge base and takes requests and appointments via Claude tool use, forwarded by e-mail. Multi-tenant, website and PDF import, industry templates with emergency detection, customer dashboard, Stripe billing, automatic data deletion (GDPR). | Node.js, Express, Claude API, PostgreSQL, Stripe, Docker |
 | **[PDF Libre](https://github.com/alfredlog/pdf-tools)** · [pdf-libre.de](https://pdf-libre.de) | Public web app with free PDF tools (merge, compress, convert, edit), Pro plan and day pass, and a pay-per-call API for AI agents. Built and run on my own Linux server. | Node.js, PostgreSQL, Stripe, Linux VPS (pm2, Caddy) |
 | **[AI Customer Support Platform (chatboot)](https://github.com/alfredlog/chatboot)** · [Live demo](https://chatboot-rho.vercel.app) | Multi-tenant SaaS for AI support chatbots: companies upload documents, the bot answers via RAG with semantic search. Auth, customer management, billing. | Node.js, Express, OpenAI, PostgreSQL + pgvector, AWS S3, Stripe |
