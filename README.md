@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Alfred Mushagalusa Munganga 👋</h1>
-<h3 align="center">Applied AI Engineer · Machine Learning & Automation · Computer Science @ TU Darmstadt</h3>
+<h3 align="center">AI Engineer · Machine Learning & Automation · Computer Science @ TU Darmstadt</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/alfred119"><img src="https://img.shields.io/badge/LinkedIn-alfred119-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
